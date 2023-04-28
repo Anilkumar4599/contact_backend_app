@@ -16,7 +16,8 @@ spec:
   spec:
     containers:
     - name: contactbackendcontainer
-      image: contact_backend_app
+      image: anil4599/contact_backend_app
+      imagePullPolicy: Always
       ports:
       - containerPort: 8080
 ---
